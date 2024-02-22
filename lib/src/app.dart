@@ -38,7 +38,7 @@ class _MyHomePageState extends ConsumerState<MyHomePage> {
   }
 
   void _switchLanguage(Locale locale) async {
-    I18nManager().cacheLanguage(locale, ref);
+    I18nManager().switchLocale(locale, ref);
   }
 
   @override

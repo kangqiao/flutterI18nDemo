@@ -47,7 +47,7 @@ class I18nManager {
     return defaultLocale;
   }
 
-  Future<void> cacheLanguage(Locale locale, WidgetRef ref) async {
+  Future<void> switchLocale(Locale locale, WidgetRef ref) async {
     final curLocale = ref.read(localProvider);
     if (curLocale != locale) {
       ref.read(localProvider.notifier).state = locale;
