@@ -1,0 +1,8 @@
+{
+  "home": "首頁",
+  "helloWorld": "你好, 世界!",
+  "english": "英語",
+  "chinese_simplified": "簡體中文",
+  "chinese_traditional": "繁體中文",
+  "msg_with_param": "{name}拒絕了組織類型切換"
+}

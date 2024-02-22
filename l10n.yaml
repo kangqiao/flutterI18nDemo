@@ -1,0 +1,10 @@
+# 其他配置参考官网：https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization
+# arb-dir: lib/l10n # arb文件文件路径，默认 lib/l10n
+arb-dir: lib/l10n
+output-dir: lib/generated
+synthetic-package: false
+template-arb-file: intl_en.arb # arb文件名的格式，默认是app_en.arb
+nullable-getter: false # Localizations.of(context)的返回值不可以为空
+output-localization-file: l10n.dart
+output-class: S # 类名，默认是AppLocalizations.
+

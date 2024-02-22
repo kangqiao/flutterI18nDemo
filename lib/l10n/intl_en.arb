@@ -1,0 +1,8 @@
+{
+  "home": "Home",
+  "helloWorld": "Hello World!",
+  "english": "English",
+  "chinese_simplified": "Simplified Chinese",
+  "chinese_traditional": "Traditional Chinese",
+  "msg_with_param": "{name} declined the organization type switch"
+}
